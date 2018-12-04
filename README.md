@@ -12,8 +12,19 @@ The Lambda Architecture is an approach to building stream processing Big Data ap
 
 So basically Lambda_Architecture its a workaround of CAP theorem and to do that, its use 2 diferent approaches:
 
-a) bach loads to garantee Consistency.
-b) streaming loads to garantee Availability.
+- Batch layer -> bach loads to garantee Consistency.
+- Speed layer -> streaming loads to garantee Availability.
+
+these two layers are available for ad-hoc queries on the Serving Layer.
+
+
+![alt text](http://lambda-architecture.net/img/la-overview_small.png)
+
+Source: http://lambda-architecture.net/
+
+
+
+
 
 
 
